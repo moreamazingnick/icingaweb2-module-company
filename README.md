@@ -25,6 +25,8 @@ or on your local system under `/usr/share/icingaweb2/public/css/icinga`.
 
 ## How to install
 
+Make sure you have icingaweb2-module-icingalegacytheme installed
+
 Install these theme repository like any other Icinga Web 2 module at:
 
     /usr/share/icingaweb2/modules/company
@@ -32,6 +34,7 @@ Install these theme repository like any other Icinga Web 2 module at:
 Enable the module:
 
     icingacli module enable company
+    
     
 Then you can select the theme in the admin or user UI.
 
